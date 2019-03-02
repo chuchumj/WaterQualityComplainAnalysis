@@ -4,7 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-
+#Minst
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -34,7 +34,7 @@ cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_*tf.log(py), reduction_indices =
 train_step = tf.train.GradientDescentOptimizer(0.05).minimize(cross_entropy)
 
 
-
+#CREATING NEW SESSION
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
